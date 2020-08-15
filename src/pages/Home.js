@@ -8,7 +8,8 @@ import {
   Input,
   Button,
   InputGroup,
-  InputGroupAddon
+  InputGroupAddon,
+  Badge
 } from "reactstrap";
 
 import UserCard from "../components/UserCard";
@@ -40,6 +41,9 @@ const Home = () => {
 
   return (
     <Container>
+      <Row className=" mt-3">
+      <h2 className="text-info">Search any git hub username below</h2>
+      </Row>
       <Row className=" mt-3">
         <Col md="5">
           <InputGroup>

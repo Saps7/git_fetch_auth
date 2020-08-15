@@ -16,7 +16,7 @@ import {
 
 import firebase from "firebase/app";
 import { UserContext } from "../context/UserContext";
-import { Redirect } from "react-router-dom";
+import { Redirect, Link } from "react-router-dom";
 import { toast } from "react-toastify";
 
 const Signup = () => {
@@ -95,6 +95,7 @@ const Signup = () => {
               </CardFooter>
             </Form>
           </Card>
+          <Link to="/signin">Already have an account? Log In</Link>
         </Col>
       </Row>
     </Container>

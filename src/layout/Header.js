@@ -40,7 +40,7 @@ const Header = () => {
                 onClick={() => {
                   context.setUser(null);
                 }}
-                className="text-white"
+                className="text-white btn"
               >
                 Logout
               </NavLink>

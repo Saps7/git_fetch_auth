@@ -16,7 +16,7 @@ import {
 
 import firebase from "firebase/app";
 import { UserContext } from "../context/UserContext";
-import { Redirect } from "react-router-dom";
+import { Redirect, Link } from "react-router-dom";
 import { toast } from "react-toastify";
 
 const SignIn = () => {
@@ -95,6 +95,7 @@ const SignIn = () => {
               </CardFooter>
             </Form>
           </Card>
+          <Link to="/signup">New User? Sign Up First</Link>
         </Col>
       </Row>
     </Container>
